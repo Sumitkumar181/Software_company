@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import celebrateImg from '../assets/Celebrate1.jpg'
-import celebrate2 from '../assets/celebrate2.jpg'
-import celebrate3 from '../assets/celebrate3.jpg'
-import celebrate4 from '../assets/celebrate4.jpg'
+import celebrate2 from '../assets/Celebrate2.jpg'
+import celebrate3 from '../assets/Celebrate3.jpg'
+import celebrate4 from '../assets/Celebrate4.jpg'
 import { TbSlashes } from "react-icons/tb"
 
 export default function AboutUs() {
