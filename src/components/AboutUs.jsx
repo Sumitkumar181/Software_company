@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import celebrate1 from '../assets/celebrate1.jpg'
+import celebrateImg from '../assets/Celebrate1.jpg'
 import celebrate2 from '../assets/celebrate2.jpg'
 import celebrate3 from '../assets/celebrate3.jpg'
 import celebrate4 from '../assets/celebrate4.jpg'
@@ -19,7 +19,7 @@ export default function AboutUs() {
             >
                 <div className="grid grid-cols-2 gap-4 max-w-md w-full">
                     <div className="h-44 sm:h-56 md:h-64 lg:h-72">
-                        <img src={celebrate1} className="w-full h-full object-cover rounded-tl-7xl rounded-tr-xl rounded-b-2xl" alt="celebrate1" />
+                        <img src={celebrateImg} className="w-full h-full object-cover rounded-tl-7xl rounded-tr-xl rounded-b-2xl" alt="celebrate1" />
                     </div>
                     <div className="h-44 sm:h-56 md:h-64 lg:h-72">
                         <img src={celebrate4} className="w-full h-full object-cover rounded-tr-3xl rounded-tl-2xl rounded-b-2xl" alt="celebrate4" />
