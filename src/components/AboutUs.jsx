@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import celebrateImg from '../assets/Celebrate1.jpg'
 import celebrate2 from '../assets/Celebrate2.jpg'
