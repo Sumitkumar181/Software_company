@@ -1,6 +1,5 @@
 
-import React from 'react'
-import { TbSlashes } from "react-icons/tb"
+
 import { TbSlashes, TbDeviceMobile } from "react-icons/tb";
 import { CgWebsite } from "react-icons/cg";
 import { SiNextui } from "react-icons/si";
@@ -39,27 +38,29 @@ export default function Services() {
           </p>
         </div>
        
-        <div className="flex flex-col sm:flex-row justify-between items-start gap-6">
+        
           <div className="font-roboto flex flex-col gap-2">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-darkBlue font-semibold leading-tight">
               Services We Provide to
             </h2>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-lightBlue font-semibold leading-tight">
-              Elevate Your Business
-            </h2>
-          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-lightBlue font-semibold leading-tight">
+            Elevate Your Business
+          </h2>
 
           <button className="h-11 w-full sm:w-40 mt-4 sm:mt-2 rounded-full bg-lightBlue text-white text-sm font-medium transition hover:bg-blue-500">
             View All Services
           </button>
         </div>
+      </div>
 
        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-16 mt-12">
           {services.map((service) => (
             <div
               key={service.id}
-              className="group bg-white rounded-2xl shadow-sm shadow-black p-6 h-full flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:border-b-[8px] hover:border-lightBlue"
+              className="group bg-white rounded-2xl shadow-sm  p-6 h-full flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:border-b-[8px] hover:border-lightBlue"
             >
               <div className="h-14 w-14 rounded-xl bg-lightBlue flex items-center justify-center mb-4">
                 {service.icon}
@@ -79,6 +80,6 @@ export default function Services() {
         </div>
       </div>
 
-    </div>
+    
   );
 }

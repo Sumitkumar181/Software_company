@@ -25,22 +25,22 @@ export default function WhyChooseUs() {
 
     const achievements = [
         {
-            icon: <GiReceiveMoney size={45} className="text-lightBlue" />,
+            icon: <GiReceiveMoney size={45} className="text-white" />,
             title: "Affordable Price",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-            icon: <HiUserGroup size={45} className="text-lightBlue" />,
+            icon: <HiUserGroup size={45} className="text-white" />,
             title: "Professional Team",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-            icon: <PiShoppingBagOpenFill size={45} className="text-lightBlue" />,
+            icon: <PiShoppingBagOpenFill size={45} className="text-white" />,
             title: "Product Delivery",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-            icon: <GrTrophy size={45} className="text-lightBlue" />,
+            icon: <GrTrophy size={45} className="text-white" />,
             title: "Award Winning",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
@@ -49,37 +49,40 @@ export default function WhyChooseUs() {
     return (
         <>
             <div className="w-full bg-darkBlue px-4 sm:px-6 lg:px-12 py-12">
-               
+
                 <div className="max-w-6xl mx-auto">
                     <div className="flex items-center gap-2 mb-4">
                         <TbSlashes className="text-lightBlue" size={24} />
                         <p className="text-white text-lg sm:text-xl font-roboto font-medium">Why Choose Us</p>
                     </div>
 
-                    <div className="flex flex-col sm:flex-row justify-between items-start gap-6">
-                        <div className="font-roboto">
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white font-semibold leading-tight">
-                                Why Trust Us for
-                            </h2>
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white font-semibold leading-tight">
-                                Your IT Needs?
-                            </h2>
-                        </div>
 
+                    <div className="font-roboto">
+                        <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white font-semibold leading-tight mb-2">
+                            Why Trust Us for
+                        </h2>
+
+                    </div>
+                    <div className="flex flex-col sm:flex-row justify-between items-start gap-6">
+                        <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white font-semibold leading-tight">
+                            Your IT Needs?
+                        </h2>
                         <button className="h-11 w-full sm:w-40 mt-6 sm:mt-2 rounded-full bg-lightBlue text-white text-sm font-medium transition hover:bg-blue-500">
                             Get A Quote
                         </button>
                     </div>
+
+
                 </div>
 
-               
+
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 mt-12">
-                    
+
                     <div className="w-full lg:w-1/2 h-64 sm:h-80 lg:h-[22rem] rounded-xl shadow overflow-hidden">
                         <img src={Whychoose} alt="WhyChoose" className="h-full w-full object-cover" />
                     </div>
 
-                    
+
                     <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {achievements.map((item, index) => (
                             <div
@@ -95,7 +98,7 @@ export default function WhyChooseUs() {
                 </div>
             </div>
 
-            
+
             <div className="relative h-14 sm:h-16 w-screen bg-lightBlue overflow-hidden">
                 <div className="absolute top-0 left-0 h-full flex items-center gap-8 whitespace-nowrap animate-marquee-slow text-white px-4">
                     {[...scrollContent, ...scrollContent]}

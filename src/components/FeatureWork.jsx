@@ -69,8 +69,8 @@ export default function FeatureWork() {
                     </div>
                 ))}
             </div>
-            <div className="flex items-center justify-center mt-10 ">
-                <button className="flex items-center justify-center gap-2 bg-lightBlue text-white font-roboto text-sm px-8 py-4 rounded-full">View All Works</button>
+            <div className="flex items-center justify-center mt-14 ">
+                <button className="flex items-center justify-center gap-2 bg-lightBlue text-white font-roboto text-sm px-10 py-3 rounded-full">View All Works</button>
             </div>
         </div>
     )
